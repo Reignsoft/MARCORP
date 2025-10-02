@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en" data-lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title data-i18n="meta.title">
+      MARCORP® — Premium Cleaning & Care Services
+    </title>
+    <meta
+      name="description"
+      data-i18n="meta.desc"
+      content="MARCORP® provides luxury home & apartment cleaning, babysitting, chauffeuring, senior care, pet care, and concierge services."
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Playfair+Display:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <a class="brand" href="#home" aria-label="MARCORP®">
+          <span class="logo">M</span>
+          <span class="brand-text">MARCORP®</span>
+          <span
+            class="swiss-badge"
+            aria-hidden="true"
+            title="Swiss quality"
+          ></span>
+        </a>
+
+        <div class="nav-right">
+          <!-- Language Switcher -->
+          <label class="lang-switch" for="lang">
+            <span class="flag" aria-hidden="true">🇨🇭</span>
+            <select id="lang" aria-label="Language">
+              <option value="en">English</option>
+              <option value="fr-CH">Français (CH)</option>
+              <option value="de-CH">Swiss (DE-CH)</option>
+            </select>
+          </label>
+
+          <button
+            class="nav-toggle"
+            aria-label="Toggle menu"
+            aria-expanded="false"
+          >
+            <span class="bar"></span><span class="bar"></span
+            ><span class="bar"></span>
+          </button>
+        </div>
+
+        <nav class="menu" aria-label="Main navigation">
+          <a href="#services" data-i18n="nav.services">Services</a>
+          <a href="#pricing" data-i18n="nav.pricing">Pricing</a>
+          <a href="#testimonials" data-i18n="nav.testimonials">Testimonials</a>
+          <a href="#reviews" data-i18n="nav.reviews">Reviews</a>
+          <a href="#contact" class="btn btn-sm" data-i18n="nav.contact"
+            >Contact</a
+          >
+        </nav>
+      </div>
+    </header>
+
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="alpine-top" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="kicker" data-i18n="hero.kicker">
+            Premium Home & Care Services
+          </div>
+          <h1 data-i18n-html="hero.title">
+            Warmth, Trust, and Luxury — <span class="accent">MARCORP®</span>
+          </h1>
+          <p class="lead" data-i18n="hero.lead">
+            From immaculate homes to thoughtful human care, MARCORP® delivers
+            five-star service with heart. Background-checked, insured, and
+            meticulously trained.
+          </p>
+
+          <p class="swiss-cities" data-i18n="hero.cities">
+            Operating across Zürich • Genève • Lausanne • Basel • Bern
+          </p>
+
+          <div class="hero-cta">
+            <a href="#services" class="btn" data-i18n="hero.cta1"
+              >Explore Services</a
+            >
+            <a href="#contact" class="btn btn-ghost" data-i18n="hero.cta2"
+              >Get a Quote</a
+            >
+          </div>
+          <ul class="trust-badges" role="list">
+            <li data-i18n="hero.badge1">✓ Background-checked staff</li>
+            <li data-i18n="hero.badge2">✓ Eco-friendly products</li>
+            <li data-i18n="hero.badge3">✓ Flexible scheduling</li>
+            <li data-i18n="hero.badge4">✓ Satisfaction guarantee</li>
+          </ul>
+        </div>
+
+        <div class="hero-portrait">
+          <!-- Replace with the real owner photo -->
+          <img
+            src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=1200&auto=format&fit=crop"
+            alt="Owner of MARCORP® smiling warmly"
+          />
+          <div class="portrait-card">
+            <strong data-i18n="hero.ownerName">Meet Houaida</strong>
+            <p data-i18n="hero.ownerRole">
+              Founder, Quality Obsessive, and your home’s new best friend.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="hero-glow" aria-hidden="true"></div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="section">
+      <div class="container">
+        <h2 class="section-title" data-i18n="services.title">
+          Available Services
+        </h2>
+        <p class="section-subtitle" data-i18n="services.subtitle">
+          Everything you need — done beautifully and reliably.
+        </p>
+
+        <div class="grid services-grid">
+          <article class="card service">
+            <h3 data-i18n="s1.t">Standard Home Cleaning</h3>
+            <p data-i18n="s1.d">
+              Regular upkeep for apartments and houses: dusting, floors,
+              kitchens, bathrooms, and tidy-ups.
+            </p>
+          </article>
+          <article class="card service">
+            <h3 data-i18n="s2.t">Deep Cleaning</h3>
+            <p data-i18n="s2.d">
+              Top-to-bottom reset: behind appliances, baseboards, grout, vents,
+              and high-touch details.
+            </p>
+          </article>
+          <article class="card service">
+            <h3 data-i18n="s3.t">Move-In / Move-Out</h3>
+            <p data-i18n="s3.d">
+              Detailed turnovers to hand keys with confidence — ideal for
+              tenants, landlords, and agents.
+            </p>
+          </article>
+          <article class="card service">
+            <h3 data-i18n="s4.t">Post-Renovation</h3>
+            <p data-i18n="s4.d">
+              Construction dust, debris, and fine particles removed with HEPA
+              filtration and careful finishing.
+            </p>
+          </article>
+          <article class="card service">
+            <h3 data-i18n="s5.t">Office & Airbnb Cleaning</h3>
+            <p data-i18n="s5.d">
+              Discreet commercial upkeep and fast turnover service for hosts who
+              need flawless ratings.
+            </p>
+          </article>
+          <article class="card service">
+            <h3 data-i18n="s6.t">Laundry & Ironing</h3>
+            <p data-i18n="s6.d">
+              Wash, fold, and press — fresh linens and wardrobe care tailored to
+              your preferences.
+            </p>
+          </article>
+          <article class="card service">
+            <h3 data-i18n="s7.t">Babysitting & Childcare</h3>
+            <p data-i18n="s7.d">
+              Vetted caregivers who engage, educate, and keep your little ones
+              safe with warmth and patience.
+            </p>
+          </article>
+          <article class="card service">
+            <h3 data-i18n="s8.t">Senior Care & Companionship</h3>
+            <p data-i18n="s8.d">
+              Respectful assistance with daily routines, medication reminders,
+              light meal prep, and errands.
+            </p>
+          </article>
+          <article class="card service">
+            <h3 data-i18n="s9.t">Chauffeuring & Errands</h3>
+            <p data-i18n="s9.d">
+              School runs, appointments, airport transfers, groceries —
+              punctual, private, and comfortable.
+            </p>
+          </article>
+          <article class="card service">
+            <h3 data-i18n="s10.t">Pet Care & Dog Walking</h3>
+            <p data-i18n="s10.d">
+              Walks, feeding, and playtime for your furry family, with photo
+              updates for peace of mind.
+            </p>
+          </article>
+          <article class="card service">
+            <h3 data-i18n="s11.t">House Sitting</h3>
+            <p data-i18n="s11.d">
+              Mail collection, plant watering, security checks, and daily
+              presence while you’re away.
+            </p>
+          </article>
+          <article class="card service">
+            <h3 data-i18n="s12.t">Custom Concierge</h3>
+            <p data-i18n="s12.d">
+              From organizing wardrobes to event prep — tell us your wish list
+              and we’ll tailor a plan.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRICING -->
+    <section id="pricing" class="section section-muted">
+      <div class="container">
+        <h2 class="section-title" data-i18n="pricing.title">Pricing</h2>
+        <p class="section-subtitle" data-i18n="pricing.subtitle">
+          Transparent plans. Luxury execution.
+        </p>
+
+        <div class="grid pricing-grid">
+          <article class="card price">
+            <h3 data-i18n="pricing.essential">Essential</h3>
+            <p class="price-tag" data-i18n-currency="p1">
+              €25<span data-i18n="pricing.perHour">/hour</span>
+            </p>
+            <ul role="list">
+              <li data-i18n="p1.i1">Standard home cleaning</li>
+              <li data-i18n="p1.i2">Eco-friendly products</li>
+              <li data-i18n="p1.i3">Flexible scheduling</li>
+            </ul>
+            <a
+              href="#contact"
+              class="btn btn-block"
+              data-i18n="pricing.ctaEssential"
+              >Book Essential</a
+            >
+          </article>
+
+          <article class="card price featured">
+            <div class="ribbon" data-i18n="pricing.mostPopular">
+              Most Popular
+            </div>
+            <h3 data-i18n="pricing.premium">Premium</h3>
+            <p class="price-tag" data-i18n-currency="p2">
+              €35<span data-i18n="pricing.perHour">/hour</span>
+            </p>
+            <ul role="list">
+              <li data-i18n="p2.i1">Deep cleaning or mixed tasks</li>
+              <li data-i18n="p2.i2">Laundry & ironing add-on</li>
+              <li data-i18n="p2.i3">Priority booking</li>
+            </ul>
+            <a
+              href="#contact"
+              class="btn btn-block"
+              data-i18n="pricing.ctaPremium"
+              >Book Premium</a
+            >
+          </article>
+
+          <article class="card price">
+            <h3 data-i18n="pricing.signature">Signature</h3>
+            <p class="price-tag" data-i18n-currency="p3">
+              €55<span data-i18n="pricing.perHour">/hour</span>
+            </p>
+            <ul role="list">
+              <li data-i18n="p3.i1">Concierge care plan</li>
+              <li data-i18n="p3.i2">Dedicated lead specialist</li>
+              <li data-i18n="p3.i3">On-call support</li>
+            </ul>
+            <a
+              href="#contact"
+              class="btn btn-block"
+              data-i18n="pricing.ctaSignature"
+              >Book Signature</a
+            >
+          </article>
+        </div>
+        <p class="fineprint" data-i18n="pricing.note">
+          * Babysitting, senior care, chauffeuring, and specialty services are
+          quoted based on scope, frequency, and timing. Ask for a custom
+          package.
+        </p>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section id="testimonials" class="section">
+      <div class="container">
+        <h2 class="section-title" data-i18n="testimonials.title">
+          What Clients Say
+        </h2>
+        <p class="section-subtitle" data-i18n="testimonials.subtitle">
+          A few words from our happy families and hosts.
+        </p>
+
+        <div class="carousel" aria-roledescription="carousel">
+          <button class="carousel-btn prev" aria-label="Previous testimonial">
+            ‹
+          </button>
+          <div class="carousel-track">
+            <figure class="t-card">
+              <blockquote data-i18n="t1.q">
+                “MARCORP turned my move-out into a breeze. The landlord asked
+                who I used. Five stars.”
+              </blockquote>
+              <figcaption data-i18n="t1.a">— Sofia M., Genève</figcaption>
+            </figure>
+            <figure class="t-card">
+              <blockquote data-i18n="t2.q">
+                “Our Airbnb rating jumped to 4.98 after two months with
+                MARCORP®. Impeccable standards.”
+              </blockquote>
+              <figcaption data-i18n="t2.a">— André R., Zürich</figcaption>
+            </figure>
+            <figure class="t-card">
+              <blockquote data-i18n="t3.q">
+                “Their babysitter is patient, creative, and genuinely caring. My
+                kids ask for her by name.”
+              </blockquote>
+              <figcaption data-i18n="t3.a">— Lina & Karim, Lausanne</figcaption>
+            </figure>
+            <figure class="t-card">
+              <blockquote data-i18n="t4.q">
+                “My mother finally enjoys her afternoons again. Respectful and
+                kind senior care.”
+              </blockquote>
+              <figcaption data-i18n="t4.a">— Marta G., Bern</figcaption>
+            </figure>
+          </div>
+          <button class="carousel-btn next" aria-label="Next testimonial">
+            ›
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- REVIEWS -->
+    <section id="reviews" class="section section-muted">
+      <div class="container">
+        <h2 class="section-title" data-i18n="reviews.title">Recent Reviews</h2>
+        <div class="grid reviews-grid">
+          <article class="card review">
+            <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <p data-i18n="r1.q">
+              “Punctual, discreet, and sparkling results. Worth every euro.”
+            </p>
+            <span class="reviewer" data-i18n="r1.a">— João P., Basel</span>
+          </article>
+          <article class="card review">
+            <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <p data-i18n="r2.q">
+              “Trusted them with my pets and home while abroad — seamless
+              updates and care.”
+            </p>
+            <span class="reviewer" data-i18n="r2.a">— Aisha H., Zürich</span>
+          </article>
+          <article class="card review">
+            <div class="stars" aria-label="4.5 out of 5 stars">★★★★☆</div>
+            <p data-i18n="r3.q">
+              “Deep clean was fantastic. Added ironing as a standing add-on.”
+            </p>
+            <span class="reviewer" data-i18n="r3.a">— Daniel C., Genève</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h2 class="section-title" data-i18n="contact.title">Contact Us</h2>
+        <p class="section-subtitle" data-i18n="contact.subtitle">
+          Tell us what you need — we’ll tailor a plan and send a quote.
+        </p>
+
+        <form class="card contact-form" novalidate>
+          <div class="form-row">
+            <div class="field">
+              <label for="name" data-i18n="contact.name">Full name</label>
+              <input
+                id="name"
+                name="name"
+                type="text"
+                placeholder="Your name"
+                data-i18n-ph="contact.namePh"
+                required
+              />
+              <small class="error"></small>
+            </div>
+            <div class="field">
+              <label for="email" data-i18n="contact.email">Email</label>
+              <input
+                id="email"
+                name="email"
+                type="email"
+                placeholder="you@example.com"
+                data-i18n-ph="contact.emailPh"
+                required
+              />
+              <small class="error"></small>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="field">
+              <label for="phone" data-i18n="contact.phone">Phone</label>
+              <input
+                id="phone"
+                name="phone"
+                type="tel"
+                placeholder="+41 ..."
+                data-i18n-ph="contact.phonePh"
+              />
+              <small class="error"></small>
+            </div>
+            <div class="field">
+              <label for="service" data-i18n="contact.service">Service</label>
+              <select id="service" name="service" required>
+                <option value="" data-i18n="contact.select">
+                  Select a service
+                </option>
+                <option data-i18n="s1.t">Standard Home Cleaning</option>
+                <option data-i18n="s2.t">Deep Cleaning</option>
+                <option data-i18n="s3.t">Move-In / Move-Out</option>
+                <option data-i18n="s4.t">Post-Renovation</option>
+                <option data-i18n="s5.t">Office & Airbnb Cleaning</option>
+                <option data-i18n="s6.t">Laundry & Ironing</option>
+                <option data-i18n="s7.t">Babysitting & Childcare</option>
+                <option data-i18n="s8.t">Senior Care & Companionship</option>
+                <option data-i18n="s9.t">Chauffeuring & Errands</option>
+                <option data-i18n="s10.t">Pet Care & Dog Walking</option>
+                <option data-i18n="s11.t">House Sitting</option>
+                <option data-i18n="s12.t">Custom Concierge</option>
+              </select>
+              <small class="error"></small>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="field">
+              <label for="date" data-i18n="contact.date">Preferred date</label>
+              <input id="date" name="date" type="date" />
+            </div>
+            <div class="field">
+              <label for="time" data-i18n="contact.time">Preferred time</label>
+              <input id="time" name="time" type="time" />
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="message" data-i18n="contact.details">Details</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              placeholder="Tell us about your home, frequency, special requests..."
+              data-i18n-ph="contact.detailsPh"
+            ></textarea>
+          </div>
+
+          <div class="form-actions">
+            <button class="btn" type="submit" data-i18n="contact.submit">
+              Request Quote
+            </button>
+            <p class="form-note" data-i18n="contact.note">
+              By submitting, you agree to be contacted about your request.
+            </p>
+          </div>
+
+          <div
+            class="toast"
+            role="status"
+            aria-live="polite"
+            hidden
+            data-i18n="contact.toast"
+          >
+            Thank you! We’ll get back to you shortly.
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <span class="logo">M</span>
+          <strong>MARCORP®</strong>
+        </div>
+        <div class="footer-copy">
+          <small data-i18n="footer.copy">
+            © <span id="year"></span> MARCORP®. Developed by Reignsoft®, LLC.
+          </small>
+        </div>
+        <div class="footer-links">
+          <a href="#home" data-i18n="nav.home">Home</a>
+          <a href="#services" data-i18n="nav.services">Services</a>
+          <a href="#pricing" data-i18n="nav.pricing">Pricing</a>
+          <a href="#contact" data-i18n="nav.contact">Contact</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
